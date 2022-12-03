@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background:linear-gradient(white,pink);
+}
+.style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: 150px;
+}
+
+.boxS {
+  display: flex;
+  flex-direction: row;
+}
+.box-group {
+  margin: 80px;
+  flex-direction: column;
+}
+.btns {
+  display: flex;
+}
+.btn-p {
+  font-size: 100px;
+  font-weight: 900;
+}
+.btn1 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.btn-1 {
+  background-color: black;
+  margin-bottom: 33px;
+  margin-right: 60px;
+}
+.btn-2 {
+  background-color: red;
+}
+.btn2 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+.btn-3 {
+  background-color: orange;
+  margin-bottom: 33px;
+  margin-right: 60px;
+}
+.btn-4 {
+  background-color: lawngreen;
+}
+
+.btn3 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+.btn-5 {
+  background-color: blue;
+  margin-bottom: 33px;
+  margin-right: 60px;
+}
+.btn-6 {
+  background-color: yellow;
+}
+.demo {
+  margin-top: 150px;
+  align-items: center;
+}
+.demo h1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: crimson;
+  background-color: yellow;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.demo img {
+  width: 370px;
+  height: 200px;
+}
